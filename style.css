@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    margin-top: 45px;
+    background: #FFFFFF;
+}
+
+.header__link1{
+    color: #F25822;
+}
+
+.header__link{
+    color: #000000;
+}
+
+.header__link:hover {
+    background-color: #dbdee3;
+}
+
+.header__link1:hover {
+    background-color: #dbdee3;
+}
+
+.logo-nav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.nav{
+    width: 533px;
+    height: 17px;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    justify-content: space-between;
+}
+
+.header{
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+.main{
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+.title{
+    margin-top: 94.71px;
+    margin-bottom: 17px;
+    width: 522px;
+    height: 222px;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.text{
+    width: 466px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.title-pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.button-flex {
+    display: flex;
+    margin-top: 52px;
+}
+
+.start{
+    width: 140px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+}
+
+.button-txt{
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.watch{
+    border:none;
+    padding: 0;
+    background: none;
+}
+
+.button-txt__2{
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    margin-left: 72px;
+}
+
+.main-pic{
+    margin-top: 94.71px;
+    margin-left: 40.94px;
+    width: 544.81px;
+    height: 374.84px;
+}
+
+.footer {
+    margin-top: 97px;
+    margin-bottom: 96px;
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
